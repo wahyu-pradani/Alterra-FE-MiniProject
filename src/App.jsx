@@ -3,27 +3,19 @@ import "./App.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 import About from "./pages/user/about/index";
-// import FooterSuds from "./global/components/footer";
 import Login from "./pages/admin/login";
-// import Register from "./pages/admin/register";
 import Contact from "./pages/user/contact/index";
-// import FormOrder from "./pages/user/order/form-order";
-// import CobaForm from "./pages/order/cobaform";
-import Update from "./pages/admin/update-order/update";
-// import { AuthProvider } from "./auth/Auth";
 import { auth } from "../firebase";
 import Home from "./pages/user/home";
 import Ordering from "./pages/user/order";
 import { onAuthStateChanged } from "firebase/auth";
 import PrivateRoute from "./helper/PrivateRoute";
-import CHATAI from "./pages/user/chatGeminiAI/chatAI";
 import Display from "./pages/admin/display-order/index";
 import Add from "./pages/admin/add-order";
 import ChatBot from "./pages/user/chatGeminiAI";
 import Edit from "./pages/admin/update-order";
 import ServiceDisplay from "./pages/admin/services/display-service";
 import UpdateService from "./pages/admin/services/update-service";
-import AddService from "./pages/admin/services/add-service/add-service";
 import ServiceAdd from "./pages/admin/services/add-service";
 import HomeAdmin from "./pages/admin/home";
 
