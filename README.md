@@ -29,7 +29,7 @@ tech stack mockapi
 tech stack react router
 
 #Live App Demo
-link : 
+link : https://suds-laundry.vercel.app/
 
 
 
