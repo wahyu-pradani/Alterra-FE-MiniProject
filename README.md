@@ -1,8 +1,35 @@
-# React + Vite
+#Project Name 
+Suds Laundry
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+#About Project
+Suds Laundry adalah sebuah website yang memungkinkan pengguna untuk melakukan pemesanan layanan laundry secara online. Situs web ini dirancang untuk memberikan kemudahan bagi pengguna yang ingin mencuci pakaian tanpa harus datang langsung ke tempat laundry
 
-Currently, two official plugins are available:
+#Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+User
+feature booking laundry
+feature contact us
+feature chat AI
+
+Admin
+feature crud service
+feature crud order
+
+#Tech Stacks 
+
+tech stack tailwind css
+tech stack react vite
+tech stack flowbite
+tech stack react marque
+tech stack axios
+tech stack vs code
+tech stack git hub
+tech stack firebase
+tech stack mockapi
+tech stack react router
+
+#Live App Demo
+link : 
+
+
+
