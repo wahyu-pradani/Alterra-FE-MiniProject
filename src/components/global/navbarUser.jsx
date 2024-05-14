@@ -7,7 +7,7 @@ import Logo from "/LogoNav.svg";
 
 export function NAVBAR() {
   return (
-    <Navbar rounded>
+    <Navbar rounded className="sticky top-0 z-40 bg-white backdrop-blur">
       <Navbar.Brand  href="">
         <img src={Logo} className="h-20" alt="Flowbite React Logo" />
       </Navbar.Brand>
