@@ -159,7 +159,7 @@ export default function FormOrder() {
                       </div>
                       <textarea
                         id="note"
-                        placeholder="input your full name"
+                        placeholder="input note"
                         required
                         name="note"
                         onChange={handleInput}
@@ -174,7 +174,7 @@ export default function FormOrder() {
                       <textarea
                         id="adress"
                         name="adress"
-                        placeholder="input your full name"
+                        placeholder="input your adress"
                         required
                         onChange={handleInput}
                         className="w-full rounded-lg border-blue-500 h-[85px]"

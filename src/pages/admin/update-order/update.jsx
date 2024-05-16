@@ -161,7 +161,7 @@ export default function Update() {
                       </div>
                       <textarea
                         id="note"
-                        placeholder="input your full name"
+                        placeholder="input note"
                         className="w-full rounded-lg border-blue-500 h-[85px]"
                         required
                         name="note"
@@ -177,7 +177,7 @@ export default function Update() {
                         id="adress"
                         name="adress"
                         className="w-full rounded-lg border-blue-500 h-[85px]"
-                        placeholder="input your full name"
+                        placeholder="input your adress"
                         required
                         onChange={handleInput}
                         value={newOrder.adress}

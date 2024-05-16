@@ -4,13 +4,7 @@ import { useEffect, useState } from "react";
 import ImgOrder from "../../../assets/img-order.svg";
 import { v4 as uuidv4 } from "uuid";
 import {
-  Button,
-  Checkbox,
-  Datepicker,
-  Label,
-  Select,
-  TextInput,
-  Textarea,
+  Button
 } from "flowbite-react";
 import { getOrder, sendForm } from "../../../api/FetchOrder";
 import { useNavigate } from "react-router-dom";
@@ -161,7 +155,7 @@ export default function AddOrder() {
                       </div>
                       <textarea
                         id="note"
-                        placeholder="input your full name"
+                        placeholder="input note"
                         required
                         name="note"
                         onChange={handleInput}
@@ -176,7 +170,7 @@ export default function AddOrder() {
                       <textarea
                         id="adress"
                         name="adress"
-                        placeholder="input your full name"
+                        placeholder="input your adres"
                         required
                         onChange={handleInput}
                         className="w-full rounded-lg border-blue-500 h-[85px]"

@@ -9,22 +9,6 @@ export default function FAQ() {
   const [allPosts, allPostsSet] = useState({});
   const [todos, setTodos] = useState([]);
 
-  /*async function getPosts() {
-    try {
-      const ref = collection(db, "faq");
-      const docs = await getDocs(ref);
-
-      let sample = [];
-      for (let x of docs.docs) {
-        if (!x.exists()) return;
-        sample.push(x.data());
-      }
-      allPostsSet(sample);
-    } catch (error) {
-      console.log(error);
-    }
-  }*/
-
   const fetchPost = async () => {
     await getDocs(collection(db, "faq"))
     .then((querySnapshot) => {
