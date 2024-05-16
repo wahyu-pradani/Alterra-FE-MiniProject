@@ -41,9 +41,7 @@ const Login = ({ user }) => {
   if (signin) {
     return <Navigate to="/display"></Navigate>;
   }
-  return user ? (
-    <Navigate key={user.uid} to="/display" />
-  ) : (
+  return (
     <section>
       <div className="relative">
         <div className="absolute transform translate-y-1/2 translate-x-4 sm:transform-none sm:translate-x-0 md:translate-y-1/2 xl:translate-y-0 sm:relative grid md:flex md:items-center md:justify-between mx-auto ">
