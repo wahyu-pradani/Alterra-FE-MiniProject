@@ -50,7 +50,6 @@ export default function AddService() {
 
     sendService(service)
       .then((res) => {
-        // setForm(res.data)
         console.log("Data berhasil tersimpan di API => ", res.data);
       })
       .catch((er) => {

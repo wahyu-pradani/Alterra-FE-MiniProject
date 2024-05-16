@@ -60,7 +60,6 @@ export default function Update() {
 
     updateForm(id, newOrder)
       .then((res) => {
-        // setForm(res.data)
         console.log("Data berhasil terupdate di API => ", res.data);
         navigate("/display");
       })

@@ -39,7 +39,7 @@ const Login = ({ user }) => {
   }
 
   if (signin) {
-    return <Navigate to="/display"></Navigate>;
+    return <Navigate to="/admin"></Navigate>;
   }
   return (
     <section>

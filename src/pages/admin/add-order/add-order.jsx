@@ -53,17 +53,6 @@ export default function AddOrder() {
   function handleSubmit(e) {
     e.preventDefault();
 
-    const Data = {
-      id: uuidv4(),
-      name: order.name,
-      email: order.email,
-      phone: order.phone,
-      datePickup: order.datePickup,
-      typeService: order.typeService,
-      note: order.note,
-      adress: order.adress,
-    };
-
     sendForm(order)
       .then((res) => {
         // setForm(res.data)

@@ -45,7 +45,6 @@ export default function Update() {
 
     updateForm(id, newService)
       .then((res) => {
-        // setForm(res.data)
         console.log("Data berhasil terupdate di API => ", res.data);
         navigate("/service");
       })

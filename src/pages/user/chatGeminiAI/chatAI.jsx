@@ -8,17 +8,6 @@ export default function CHATAI() {
   // const [combine, setCombine] = useState("");
   const [generatingAnswer, setGeneratingAnswer] = useState(false);
 
-  const predefinedMessage = `
-  Cara menjaga kebersihan pakaian :
-  1. Taruh pakaian kotor di keranjang cucian.
-  2. Perhatikan label instruksi mencuci di pakaian.
-  3. Pilih produk pencuci pakaian yang sesuai kebutuhan.
-  4. Gunakan air dengan suhu yang pas.
-  5. Bersihkan noda dengan tepat. 
-  6. Perhatikan kapan Anda perlu mengganti dan mencuci pakaian.
-  
-  
-  `;
   async function generateAnswer(e) {
     setGeneratingAnswer(true);
     e.preventDefault();
